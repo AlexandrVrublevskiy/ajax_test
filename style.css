@@ -19,6 +19,7 @@ thead {
 	  color: #669;
 	  border-top: 1px solid transparent;
 	  padding: 8px;
+	  margin-bottom: 10px;
 	 
 }
 #pst{
@@ -57,8 +58,9 @@ transition: .3s linear;
 
 body {
 	overflow-x: hidden;
-    background-image: url(img\\gplaypattern_@2X.png); 
-	background-attachment: fixed
+	/*background-image: url(img//gplaypattern_@2X.png);*/
+    background-image: url(http://abhinavsociety.org/wp-content/uploads/2013/05/gplaypattern_@2X.png);
+	background-attachment: fixed;
 }
 
 #wrapper {
