@@ -57,7 +57,7 @@ transition: .3s linear;
 
 body {
 	overflow-x: hidden;
-    background-image: url(img\\gplaypattern\\gplaypattern\\gplaypattern_@2X.png); 
+    background-image: url(img\\gplaypattern_@2X.png); 
 	background-attachment: fixed
 }
 

@@ -40,8 +40,8 @@ $(document).ready(function(){
 					items_data += '<td>'+val.name+'</td>';
 					items_data += '<td>'+val.username+'</td>';
 					items_data += '<td>'+val.email+'</td>';
-					/*items_data += '<td>'+"Город: "+val.address.city+"<br>Улица: "+val.address.street+"<br>Квартира: "+val.address.suite+'</td>';
-					items_data += '<td>'+val.company.name+'</td>';*/
+					items_data += '<td>'+"Город: "+val.address.city+"<br>Улица: "+val.address.street+"<br>Квартира: "+val.address.suite+'</td>';
+					items_data += '<td>'+val.company.name+'</td>';
 					items_data += '<td><a>'+val.website+'<a/></td>';
 				});
 				}
