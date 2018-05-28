@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Тестовая страница</title>
+        <meta charset="utf-8" />
+        <link href="style.css" rel="stylesheet" media="all">
+        <script src="http://yastatic.net/jquery/2.1.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <style>
+        </style>
+    </head>
+    <body>
+		 <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#" id="get_test">
+                        Навигация по сайту
+                    </a>
+                </li>
+                <li>
+                    <a href="#" id="get_users">Cписок пользователей</a>
+                </li>
+                <li>
+                    <a href="#" id="get_posts">Список постов</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <h1>Тестирование AJAX запросов</h1>
+				<p>__________________________________________________________________________________</p>
+                <p>JSON для тестирования брал <a href="https://jsonplaceholder.typicode.com/">отсюда</a></p> 
+                <a href="#menu-toggle" class="btn btn-outline-secondary" id="menu-toggle">Навигация по сайту</a>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+ 
+	
+		<!--<div id='but'><input id="get_users" type="button" value="Получить список пользователей">
+					 <input id="get_posts" type="button" value="Получить список постов">
+		</div>-->
+		
+		<div id="my_div"></div>
+		<table id='tbl'>
+		  <thead id='tblh'>
+			<tr>
+			  <th>№</th>
+			  <th><div>Имя</div></th>
+			  <th><div>Логин</div></th>
+			  <th><div>Email</div></th>
+			 <!--< <th><div>Адрес</div></th>
+			  <th><div>Организация</div></th>-->
+			  <th><div>Сайт пользователя</div></th>
+			</tr>
+		  <thead>
+		  <tbody id="items"></tbody>
+		</table>
+		<div id='pst'></div>
+		<script src="ajax.js"></script>
+		</div>
+		<!-- /#wrapper -->
+    </body>
+</html>
